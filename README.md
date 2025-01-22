@@ -40,5 +40,5 @@ To preview the project, open the file in a browser and observe the continuous an
 
 ---
 
-Made with ❤️ to illustrate the beauty of celestial events.
-Made By ❤️AZ_Tech_Wizardry 
+Made with ❤️ to illustrate the beauty of celestial events.  
+**Made By ❤️AZ_Tech_Wizardry**
