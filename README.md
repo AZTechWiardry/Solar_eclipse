@@ -36,6 +36,14 @@ This project is a visual representation of a solar eclipse, demonstrating the in
 You can adjust the animation speed, colors, or sizes by modifying the CSS styles in the `<style>` section of `index.html`.
 
 ## Preview
+Here is how the solar eclipse animation looks during different phases:
+
+### Daytime
+![Daytime Phase](./Screenshot-from-2025-01-22-22-43-23.png)
+
+### Eclipse
+![Eclipse Phase](./Screenshot-from-2025-01-22-22-43-32.png)
+
 To preview the project, open the file in a browser and observe the continuous animation of the solar eclipse.
 
 ---
