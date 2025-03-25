@@ -1,4 +1,3 @@
-# Solar_eclipse
 # Solar Eclipse Animation
 
 This project is a visual representation of a solar eclipse, demonstrating the interaction between the sun, moon, and sky using HTML and CSS animations.
