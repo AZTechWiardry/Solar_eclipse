@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar Eclipse</title>
     <style>
-        *{
+        * {
             animation: 25s linear infinite;
         }
 
-        body{
+        body {
             margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
         }
         
-        .sky{
-            width: 100vw;
-            height: 100vh;
+        .sky {
+            flex: 1;
             background-color: skyblue;
             display: flex;
             align-items: center;
@@ -25,47 +27,53 @@
             overflow: hidden;
         }
 
-        .sun, .moon{
+        .sun, .moon {
             position: absolute;
             width: 50vmin;
             height: 50vmin;
             border-radius: 50%;
         }
 
-        .sun{
+        .sun {
             background-color: gold;
             animation-name: animate-sun;
         }
 
-        .moon{
+        .moon {
             background-color: slategray;
             animation-name: animate-moon;
         }
 
-        @keyframes animate-sky{
-            50%{
+        @keyframes animate-sky {
+            50% {
                 background-color: black;
             }
         }
 
-        @keyframes animate-sun{
-            50%{
+        @keyframes animate-sun {
+            50% {
                 box-shadow: 0 0 5em 1em white;
             }
         }
 
-        @keyframes animate-moon{
-            from{
+        @keyframes animate-moon {
+            from {
                 transform: translateX(-100vmin);
             }
-            50%{
+            50% {
                 background-color: black;
             }
-            to{
+            to {
                 transform: translateX(100vmin);
             }
         }
 
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -73,5 +81,8 @@
         <div class="sun"></div>
         <div class="moon"></div>
     </div>
+    <footer>
+        &copy; 2025 ❤ AZ_TECH_WIDARDRY
+    </footer>
 </body>
 </html>
